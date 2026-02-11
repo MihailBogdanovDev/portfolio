@@ -131,13 +131,7 @@ export default function Header() {
         >
           <SiLinkedin className="h-5 w-5" />
         </a>
-        <a
-          href={`mailto:${resume.contact.email}`}
-          className="text-neutral-500 transition-colors hover:text-white"
-          aria-label="Email"
-        >
-          <HiOutlineMail className="h-5 w-5" />
-        </a>
+        <span className="text-sm text-neutral-500">{resume.contact.email}</span>
       </div>
     </header>
   );
