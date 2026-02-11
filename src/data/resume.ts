@@ -1,7 +1,7 @@
 export const resume = {
   name: "Mihail Bogdanov",
   title: "Software Engineer",
-  tagline: "Building clean, performant software with modern web technologies.",
+  tagline: "Passionate about building interesting innovative projects.",
 
   about:
     "I'm a 25 year old bulgarian software engineer currently graduating from the University of Applied Sciences of Fontys in Eindhoven. I'm passionate about building interesting software, learning new technologies and solving problems. Projects that offer an oppurtunity to learn something new and broaden my skills are always in my interest. I have full stack experience with building web applications and backend services. I am now mainly interested in finding usecases for AI and LLMs in software development. AI has been a game changer in software development and I'm excited to see where it takes us in the future. \n\nCurrently, I am doing my graduation internship at Synthgen, working on their website CaptureAI to implement a Image-to-Video generation pipeline and also implementing a node-based canvas for creating personalized generation pipelines.",
