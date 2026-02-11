@@ -4,7 +4,7 @@ export const resume = {
   tagline: "Passionate about building interesting innovative projects.",
 
   about:
-    "I'm a 25-year-old Bulgarian software engineer currently graduating from the University of Applied Sciences Fontys in Eindhoven. I'm passionate about building interesting software, learning new technologies, and solving problems. Projects that offer an opportunity to learn something new and broaden my skill set are always of interest to me. I have full-stack experience in building web applications and backend services. I am now mainly interested in finding use cases for AI and LLMs in software development. AI has been a game changer in software development, and I'm excited to see where it takes us in the future. \n\Currently, I am doing my graduation internship at Synthgen, where I am working on their website, CaptureAI, to implement an image-to-video generation pipeline, as well as a node-based canvas for creating personalized generation pipelines.",
+    "I’m a 25-year-old software engineer graduating from the University of Applied Sciences Fontys in Eindhoven. I enjoy building impactful software, learning new technologies, and solving complex problems. I have full-stack experience developing web applications and backend services, and I’m currently focused on applying AI and LLMs to real-world software use cases. \n\I’m completing my graduation internship at Synthgen, where I’m working on CaptureAI—building an image-to-video generation pipeline and a node-based canvas for creating personalized generation workflows. \n\As a hobby sometimes I like to create little side projects. Currently working on creating a 3D Unity Game with a story.",
 
   skills: [
     "TypeScript",
@@ -31,7 +31,7 @@ export const resume = {
     "REST APIs",
   ],
 
-  learning: ["AWS", "Kubernetes"],
+  learning: ["AWS"],
 
   projects: [
     {
@@ -60,6 +60,14 @@ export const resume = {
       url: null,
       github: "https://github.com/MihailBogdanovDev/sim-tool",
       client: { name: "Microlab", url: "https://www.microlab.nl/nl-nl/?utm_term=microlab&utm_campaign=Algemeen+-+Kantoorruimte+Rotterdam&utm_source=google&utm_medium=cpc&hsa_acc=5316034525&hsa_cam=16335829102&hsa_grp=138900929452&hsa_ad=649028249743&hsa_src=g&hsa_tgt=kwd-298343939415&hsa_kw=microlab&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16335829102&gbraid=0AAAAABORAh1wiep240LgQq7EZIlyGLeYJ&gclid=Cj0KCQiAy6vMBhDCARIsAK8rOgnRhMqJxBggc1Llit_PuazQ9qSkxFFApKqOkeZDk6KITgFfgqup3uAaAtgyEALw_wcB" },
+    },
+    {
+      name: "Predator Pray Simulation",
+      description:
+        "A project for my AI for sociaty minor. Using ML Agents for unity to create a predator pray simulation.",
+      tech: ["Unity", "C#", "Blender"],
+      url: null,
+      github: "https://github.com/MihailBogdanovDev/PredatoryPraySim",
     },
   ],
 
