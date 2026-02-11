@@ -44,6 +44,15 @@ export default function Experience() {
           </div>
         ))}
       </div>
+
+      <a
+        href="/Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-emerald-400/80 transition-colors hover:text-emerald-300"
+      >
+        View Full Resume &rarr;
+      </a>
     </Section>
   );
 }
