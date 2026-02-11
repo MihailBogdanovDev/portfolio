@@ -66,6 +66,7 @@ export const resume = {
   experience: [
     {
       company: "Synthgen",
+      url: "https://www.synthgen.co",
       role: "Fullstack Developer - Intern",
       period: "November 2025 — Present",
       bullets: [
@@ -75,6 +76,7 @@ export const resume = {
     },
     {
       company: "Microlab",
+      url: "https://www.microlab.nl",
       role: "Backend Developer",
       period: "September 2024 — July 2025",
       bullets: [
@@ -83,6 +85,7 @@ export const resume = {
     },
     {
       company: "Genzai",
+      url: "https://www.genzai.nl/",
       role: "Fullstack Developer - Intern",
       period: "September 2023 — Janury 2024",
       bullets: [

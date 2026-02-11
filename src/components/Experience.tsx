@@ -18,7 +18,17 @@ export default function Experience() {
             <div>
               <h3 className="text-base font-medium text-white">
                 {job.role}{" "}
-                <span className="text-emerald-400/80">&middot; {job.company}</span>
+                <span className="text-emerald-400/80">
+                  &middot;{" "}
+                  <a
+                    href={job.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-emerald-300"
+                  >
+                    {job.company}
+                  </a>
+                </span>
               </h3>
               <ul className="mt-2 space-y-1">
                 {job.bullets.map((bullet, j) => (
