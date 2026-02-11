@@ -103,7 +103,7 @@ export default function Header() {
         {/* Replace src with your photo */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/photo.jpg"
+          src="/photo.JPG"
           alt={resume.name}
           className="h-full w-full object-cover"
           onError={(e) => {
